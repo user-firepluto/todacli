@@ -1,5 +1,5 @@
 # TodaMaster
-O TodaMaster é um aplicativo simples que resume um artigo de um site com o Gemini 2.5 Flash e transforma em um teste de digitação
+O TodaMasterCLI é um aplicativo linux CLI simples que resume um artigo de um site com o Gemini 2.5 Flash e transforma em um teste de digitação, confira também a versão GUI no meu github
 # Dependências
 Para CLI: python(3.12 e superior), time, requests, os, textwrap, bs4, google
 # Créditos
