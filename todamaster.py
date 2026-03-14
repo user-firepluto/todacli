@@ -5,10 +5,8 @@ import textwrap
 from bs4 import BeautifulSoup
 from google import genai
 
-# 1. Configuração do Gemini
-API_KEY = "AIzaSyBo8moztuJ-huNhKoLZaW7CEvTk4YiXLqg"
+API_KEY = input("Digite a sua chave de api do Gemini: ")
 client = genai.Client(api_key=API_KEY)
-
 
 def extrair_conteudo(url):
     print("\n[1/3] Lendo o artigo...")
@@ -106,5 +104,5 @@ def main():
     teste_wpm(resumo)
 
 
-if __name__ == "__main__":
+if __name__ == "__todamaster__":
     main()
